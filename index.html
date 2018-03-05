@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AB Player 0.2.1</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/loader.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/player.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/siriwavejs@2.0.2/siriwave.min.js"></script>
+   <script src="js/progressbar.js"></script>
+
+
+
+</head>
+
+<body onLoad="laadimineKordus()">
+
+
+
+
+    <div id="pleier" class="container-fluid bg-light">
+      <h1>ABplayer</h1>
+      <div id="siri-container" class="jumbotron"></div>
+      <div id="container"></div>
+      <div id="nupud" class="btn-group" >
+        <button id="start" class="glyphicon glyphicon-play" disabled></button>
+        <button id="stop" class="glyphicon glyphicon-stop" disabled></button>
+        <button id="pause" class="glyphicon glyphicon-pause" disabled></button>
+        <button id="toggle" class="" disabled>Player laeb faile...</button>
+      </div>
+      <div id="test"></div>
+    </div>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.5/howler.js"></script>
+  <script src="js/siriwave.js"></script>
+  <script src="js/abplayer-0.2.1.js"></script>
+
+
+</body>
+
+</html>
